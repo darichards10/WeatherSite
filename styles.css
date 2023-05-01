@@ -1,0 +1,49 @@
+body {
+    background: cornflowerblue;
+    
+}
+
+.form-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: white ;
+    opacity: 75%;
+    text-align: center;
+    width: 45%;
+    margin-left: 27.5%;
+    border: 2px solid coral;
+}
+
+.form-container p {
+    padding-top: 5%;
+}
+
+.form-container button {
+    margin-bottom: 5%;
+    transition-duration: .8s;
+    border: 2px solid coral;
+}
+
+button:hover {
+    background-color: cornflowerblue;
+}
+
+.cols {
+    overflow: hidden;
+    list-style: none;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.col {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
