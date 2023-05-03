@@ -9,6 +9,16 @@
         </title>
     </head>
     <body>
+        <div class="container">
+        <div class="header"> 
+        <h1>Weather App</h1>
+        </div>
+        <div class="form-container">
+            <form method="post" action="index.php">
+                <p>Enter City <input name="city" type="text"></p>
+                <button>Submit</button>
+            </form>
+        </div>
         <div class="form-container">
            
         <?php
@@ -33,6 +43,7 @@
         $cur_time = date('h:i A');
         ?>
         <h1><?php echo $city; ?> </h1>
+        <hr>
         <p>Feels like <?php echo $main['feels_like']; ?> *F</p>
         <div class="cols">
         <ul class="col">
@@ -49,11 +60,6 @@
         <p>Lon, Lat: <?php echo $data['coord']['lon']?>, <?php echo $data['coord']['lat']?></p>
         <p> Data as of <?php echo $cur_time; ?> </p>
         </div>
-        <div class="form-container">
-            <form method="post" action="index.php">
-                <p>Enter City <input name="city" type="text"></p>
-                <button>Submit</button>
-            </form>
         </div>
     </body>
 </html>

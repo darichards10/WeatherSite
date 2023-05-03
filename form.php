@@ -9,12 +9,16 @@
         </title>
     </head>
     <body>
+    <div class="container">
+        <div class="header"> 
+        <h1>Weather App</h1>
+        </div>
         <div class="form-container">
-            <H1>Weather App</H1>
         <form action="index.php" method="post">
             <p>Enter City: <input type="text" name="city"></p>
             <button>Submit</button>
         </form>
         </div>
+    </div>
     </body>
 </html>

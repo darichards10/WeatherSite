@@ -1,22 +1,26 @@
 body {
     background: cornflowerblue;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .form-container {
     display: block;
     justify-content: center;
     align-items: center;
-    
-    
-    margin-top: 10%;
+    flex-direction: column;
+
+    margin-top: 25px;
+
     border-radius: 5px;
     background-color: white ;
-    opacity: 75%;
+    border: 2px solid coral;
+
     text-align: center;
     width: 45%;
-    margin-left: 27.5%;
-    border: 2px solid coral;
+   
+    
+    align-content: center;
+    min-width: 450px;
 }
 
 .form-container p {
@@ -46,4 +50,19 @@ button:hover {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.header {
+    text-align: center;
+    color: blanchedalmond;
+    min-width: 100%;
+    
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
